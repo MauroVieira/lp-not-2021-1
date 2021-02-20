@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá mundo em JavaScript</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>programa de suadação em JavaScript</p>
+    <button id="saudar">Saudação</button>
+    <script>
+        //Função que será executada quando o botão 'Saudar' for acionado
+        function clique() {
+            alert('Olá, usuario(a)!')
+        }
+        //Fazendo com que o botão, ao ser clicado, execute a função
+        document.querySelector('#saudar').addEventListener('click', clique)
+    </script>
+</body>
+</html>
